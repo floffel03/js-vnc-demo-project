@@ -1,5 +1,5 @@
 var rfb = require('rfb2'),
-  port = 8090,
+  port = 80,
   socketIoPort = 8091,
   socketio = require('socket.io').listen(socketIoPort, { log: false }),
   Png = require('./node_modules/node-png/build/Release/png').Png,
